@@ -18,7 +18,7 @@ const PORTFOLIO = {
   github:   "https://github.com/Hloniphani-Dube",
 
   /* Profile photo — place file in assets/ and update the path */
-  profileImage: "assets/img_quiz.png",
+  profileImage: "assets/img_quz.png",
 
   /* Hero background — place file in assets/ and update the path */
   heroBg: "assets/hero-bg.jpg",
