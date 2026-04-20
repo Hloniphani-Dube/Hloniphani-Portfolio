@@ -57,7 +57,7 @@ const PORTFOLIO = {
       meta:   "Higher Certificate",
       type:   "cert",
       icon:   "book-open",
-      image:  ""
+      image:  "assets/img_highercert.png"
     },
     {
       title:  "Google Cybersecurity",
