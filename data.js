@@ -41,7 +41,6 @@ const PORTFOLIO = {
     { label: "HTML",            icon: "code"        },
     { label: "CSS",             icon: "paintbrush"  },
     { label: "JavaScript",      icon: "zap"         },
-    { label: "TypeScript",      icon: "file-type"   },
     { label: "Kotlin",          icon: "smartphone"  },
     { label: "Java (Beginner)", icon: "coffee"      },
   ],
