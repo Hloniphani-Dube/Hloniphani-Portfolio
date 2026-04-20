@@ -21,7 +21,7 @@ const PORTFOLIO = {
   profileImage: "assets/img_quz.png",
 
   /* Hero background — place file in assets/ and update the path */
-  heroBg: "assets/hero-bg.jpg",
+  heroBg: "assets/img_quz.png",
 
   /* ----------------------------------------------------------
      ABOUT
