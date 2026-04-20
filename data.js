@@ -40,6 +40,7 @@ const PORTFOLIO = {
   skills: [
     { label: "HTML",            icon: "code"        },
     { label: "CSS",             icon: "paintbrush"  },
+    { label: "JavaScript",      icon: "code"        },
     { label: "Kotlin",          icon: "smartphone"  },
     { label: "Java (Beginner)", icon: "coffee"      },
   ],
