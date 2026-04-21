@@ -3,114 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>Hloniphani Dube — Software Developer</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
-<body class="dark">
+<body>
 
   <!-- ===================== NAVIGATION ===================== -->
   <nav id="navbar">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo" id="nav-logo"></a>
+      <a href="#hero" class="nav-logo"></a>
       <ul class="nav-links">
-        <li><a href="#about"      class="nav-link"><i data-lucide="user"           class="nav-icon"></i>About</a></li>
-        <li><a href="#skills"     class="nav-link"><i data-lucide="code-2"         class="nav-icon"></i>Skills</a></li>
-        <li><a href="#education"  class="nav-link"><i data-lucide="graduation-cap" class="nav-icon"></i>Education</a></li>
-        <li><a href="#projects"   class="nav-link"><i data-lucide="folder-open"    class="nav-icon"></i>Projects</a></li>
-        <li><a href="#experience" class="nav-link"><i data-lucide="briefcase"      class="nav-icon"></i>Experience</a></li>
-        <li><a href="#contact"    class="nav-link"><i data-lucide="mail"           class="nav-icon"></i>Contact</a></li>
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button id="theme-toggle" aria-label="Toggle theme">
-        <i data-lucide="sun" id="theme-icon"></i>
-        <span id="theme-label">Light Mode</span>
-      </button>
-      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
     </div>
   </nav>
 
-  <!-- ==================== MOBILE MENU ==================== -->
-  <div class="mobile-menu" id="mobile-menu">
-    <ul>
-      <li><a href="#about"      class="mobile-link"><i data-lucide="user"></i>About</a></li>
-      <li><a href="#skills"     class="mobile-link"><i data-lucide="code-2"></i>Skills</a></li>
-      <li><a href="#education"  class="mobile-link"><i data-lucide="graduation-cap"></i>Education</a></li>
-      <li><a href="#projects"   class="mobile-link"><i data-lucide="folder-open"></i>Projects</a></li>
-      <li><a href="#experience" class="mobile-link"><i data-lucide="briefcase"></i>Experience</a></li>
-      <li><a href="#contact"    class="mobile-link"><i data-lucide="mail"></i>Contact</a></li>
-    </ul>
-  </div>
-
   <!-- ======================= HERO ======================== -->
   <section id="hero">
-    <div class="hero-bg-panel">
-      <img id="hero-bg-img" src="" alt="" class="hero-bg-image" />
-      <div class="hero-bg-overlay"></div>
-      <div class="hero-shape hero-shape-1"></div>
-      <div class="hero-shape hero-shape-2"></div>
-    </div>
-    <div class="hero-content reveal">
-      <div class="profile-image-wrapper">
-        <img id="profile-img" src="" alt="" class="profile-image"
-          onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';" />
-        <div class="profile-placeholder" id="profile-placeholder"><span id="profile-initials"></span></div>
+    <div class="hero-content">
+      <div class="profile-section">
+        <img id="profile-img" src="" alt="Profile" class="profile-image" />
       </div>
       <h1 id="hero-name"></h1>
       <p class="tagline" id="hero-tagline"></p>
+      <p class="hero-description" id="hero-description"></p>
       <div class="hero-buttons" id="hero-buttons"></div>
-      <a href="#about" class="hero-scroll-cue" aria-label="Scroll to About">
-        <i data-lucide="chevron-down"></i>
-      </a>
     </div>
   </section>
 
   <!-- ======================= ABOUT ======================= -->
   <section id="about">
     <div class="container">
-      <h2 class="section-title reveal">About Me</h2>
-      <div class="about-content reveal" id="about-content"></div>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content" id="about-content"></div>
     </div>
   </section>
 
   <!-- ====================== SKILLS ======================= -->
   <section id="skills">
     <div class="container">
-      <h2 class="section-title reveal">Skills</h2>
-      <div class="skills-grid reveal" id="skills-grid"></div>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid" id="skills-grid"></div>
     </div>
   </section>
 
   <!-- ==================== EDUCATION ====================== -->
   <section id="education">
     <div class="container">
-      <h2 class="section-title reveal">Education &amp; Certificates</h2>
-      <div class="education-cards-grid" id="education-grid"></div>
+      <h2 class="section-title">Education & Certificates</h2>
+      <div class="education-grid" id="education-grid"></div>
     </div>
   </section>
 
   <!-- ===================== PROJECTS ====================== -->
-  <!--
-    TO ADD / EDIT / REMOVE A PROJECT:
-    Open data.js and edit the "projects" array.
-    Each object has: title, description, image, demo, github
-  -->
   <section id="projects">
     <div class="container">
-      <h2 class="section-title reveal">Projects</h2>
-      <div class="projects-grid" id="projects-grid"></div>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-list" id="projects-list"></div>
     </div>
   </section>
 
   <!-- ==================== EXPERIENCE ===================== -->
-  <!--
-    TO ADD / EDIT / REMOVE EXPERIENCE:
-    Open data.js and edit the "experience" array.
-  -->
   <section id="experience">
     <div class="container">
-      <h2 class="section-title reveal">Experience</h2>
+      <h2 class="section-title">Experience</h2>
       <div class="experience-list" id="experience-list"></div>
     </div>
   </section>
@@ -118,20 +80,11 @@
   <!-- ===================== CONTACT ======================= -->
   <section id="contact">
     <div class="container">
-      <h2 class="section-title reveal">Contact</h2>
-      <div class="contact-wrapper reveal">
-        <p class="contact-intro">Feel free to reach out for collaboration, opportunities, or just to connect.</p>
-        <ul class="contact-details" id="contact-details"></ul>
-      </div>
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Feel free to reach out for collaboration, opportunities, or just to connect.</p>
+      <ul class="contact-details" id="contact-details"></ul>
     </div>
   </section>
-
-  <!-- ====================== FOOTER ======================= -->
-  <footer>
-    <div class="container">
-      <p id="footer-text"></p>
-    </div>
-  </footer>
 
   <script src="data.js"></script>
   <script src="script.js"></script>
