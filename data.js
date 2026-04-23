@@ -55,6 +55,16 @@ const PORTFOLIO = {
       meta:   "Certificate",
       image:  "assets/img_certgooglecyber.jpeg"
     },
+    {
+      title:  "Meta Back-End Developer Professional Certificate",
+      meta:   "In Progress · Coursera",
+      image:  ""
+    },
+    {
+      title:  "IBM Java Developer Professional Certificate",
+      meta:   "In Progress · Coursera",
+      image:  ""
+    },
   ],
 
   /* ==================================================
