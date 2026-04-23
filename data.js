@@ -12,10 +12,10 @@ const PORTFOLIO = {
   linkedin: "https://linkedin.com/in/hloniphani-dube-mlambo-39591b404",
 
   /* Profile photo */
-  profileImage: "assets/img_quz.png",
+  profileImage: "assets/img_profile.jpeg",
 
   /* Quick tagline — recruiters see this in 2 seconds */
-  tagline:  "Software Developer | Backend Systems | Clean Code",
+  tagline:  "Computer Science Student | Software Developer | AI & Cybersecurity Enthusiast",
 
   /* One sentence about what you build */
   heroDescription: "I build authentication systems, backend logic, and scalable applications. Focused on clean architecture and real-world problems.",
@@ -69,7 +69,7 @@ const PORTFOLIO = {
   ================================================== */
   projects: [
     {
-      title: "Quiz Gamification App",
+      title: "Quiz Gamification Website",
       features: [
         "Designed user competition system with real-time scoring",
         "Built leaderboard ranking algorithm with tiebreak logic",
@@ -80,6 +80,26 @@ const PORTFOLIO = {
       tech: "JavaScript, Frontend/Backend, Database Design",
       demo: "https://quiz-gamification.vercel.app",
       github: "https://github.com/Hloniphani-Dube/Quiz-Gamification"
+    },
+    {
+      title: "Phroneo Threads Website",
+      features: [
+        "Simple daily devotional content system for clothing QR codes.",
+        "Three URLs that automatically change content at midnight."
+      ],
+      tech: "HTML, CSS, JavaScript",
+      demo: "https://www.phroneothreads.co.za",
+      github: "https://github.com/Hloniphani-Dube/phroneo-threads-website"
+    },
+    {
+      title: "UBUHLE-Decorative-Projects-Construction-Website",
+      features: [
+        "Made a website for a company that deals with expert painting, tiling and renovation services with guaranteed quality workmanship. Transform your home with Johannesburg's trusted decorative painters."
+        
+      ],
+      tech: "HTML, CSS, JavaScript",
+      demo: "https://www.ubuhledecorativepainters.co.za",
+      github: "https://github.com/Hloniphani-Dube/UBUHLE-Decorative-Projects-Construction-Website"
     }
   ],
 
@@ -88,7 +108,7 @@ const PORTFOLIO = {
   ================================================== */
   experience: [
     {
-      title: "Junior Front-end Developer For Cyberm8",
+      title: "Cyberm8 | volunteer. Junior Front-end Developer",
       period: "Ongoing",
       description: "Designing and creating Front-end software. https://www.cyberm8.org.za"
     }

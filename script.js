@@ -35,7 +35,7 @@ function render() {
     <span class="btn-divider">|</span>
     <a href="mailto:${d.email}" class="btn">Email Me</a>
     <span class="btn-divider">|</span>
-    <a href="https://google.com" target="_blank" rel="noopener" class="btn">CV</a>
+    <a href="https://drive.google.com/file/d/1Xzy3Z5d-7lutWM7WnBtKdGDgZHGQb9f6/view?usp=sharing" target="_blank" rel="noopener" class="btn">CV</a>
   `;
 
   /* ---- About ---- */
@@ -67,7 +67,7 @@ function render() {
         </ul>
         <div class="project-tech"><strong>Tech:</strong> ${p.tech}</div>
         <div class="project-links">
-          ${p.demo ? `<a href="${p.demo}" target="_blank" rel="noopener" class="btn">Live Demo</a>` : ''}
+          ${p.demo ? `<a href="${p.demo}" target="_blank" rel="noopener" class="btn">Live</a>` : ''}
           ${p.github ? `<a href="${p.github}" target="_blank" rel="noopener" class="btn">GitHub</a>` : ''}
         </div>
       </div>`).join('');
