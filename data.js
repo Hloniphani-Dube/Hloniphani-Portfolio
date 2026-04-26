@@ -15,15 +15,15 @@ const PORTFOLIO = {
   profileImage: "assets/img_profile.jpeg",
 
   /* Quick tagline — recruiters see this in 2 seconds */
-  tagline:  "Computer Science Student | Software Developer | AI & Cybersecurity Enthusiast",
+  tagline:  "Front-End Developer & UI/UX Designer • Aspiring Full-Stack Dev & Cybersecurity Specialist",
 
   /* One sentence about what you build */
-  heroDescription: "I build authentication systems, backend logic, and scalable applications. Focused on clean architecture and real-world problems.",
+  heroDescription: "Computer Science student with a strong focus on front-end development and UI/UX design. Currently expanding into back-end development and cybersecurity to become a well-rounded software developer.",
 
   /* About section — full paragraphs */
   about: [
-    "I am a Computer Science student with a strong interest in Software Development, Artificial Intelligence, and Cybersecurity. I focus on building real-world projects that solve practical problems and I am committed to improving my skills every day.",
-    "I enjoy working across the full stack and exploring how technology can be applied to create meaningful solutions."
+    "Computer Science student with a strong focus on front-end development and UI/UX design. Currently studying back-end development and cybersecurity to grow into a full-stack developer.",
+    "Focused on building clean, user-centered interfaces and currently expanding into back-end development and cybersecurity to become a well-rounded software developer."
   ],
 
   /* Skills */
@@ -32,14 +32,28 @@ const PORTFOLIO = {
     "CSS",
     "JavaScript",
     "Kotlin",
-    "Java (Beginner)"
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Firebase",
+    "TypeScript (Learning)",
+    "Java (Learning)"
   ],
 
   /* About section — 2-3 sentences max */
-  aboutShort: "Computer Science student focused on backend development and AI engineering. I build systems that prioritize clean structure, validation, and scalability. I enjoy solving complex problems through well-designed code.",
+  aboutShort: "Front-end developer and UI/UX designer growing into full-stack development and cybersecurity. I build clean, user-centered interfaces and am currently strengthening my back-end and security skills.",
 
   /* Tools & languages you use */
-  tools: "Java, JavaScript, Kotlin, Git, JUnit, REST APIs",
+  tools: "HTML, CSS, JavaScript, Kotlin, Git, GitHub, Vercel, Firebase, TypeScript, Java",
+
+  /* Current focus */
+  currentFocus: [
+    "Building responsive and visually strong front-end projects",
+    "Improving UI/UX design thinking and user experience",
+    "Developing back-end skills (Java & TypeScript)",
+    "Learning cybersecurity fundamentals and best practices",
+    "Strengthening problem-solving and software engineering skills"
+  ],
 
   /* ==================================================
      EDUCATION & CERTIFICATES
@@ -120,7 +134,7 @@ const PORTFOLIO = {
     {
       title: "Cyberm8 | volunteer. Junior Front-end Developer",
       period: "Ongoing",
-      description: "Designing and creating Front-end software. https://www.cyberm8.org.za"
+      description: "Designing and creating Front-end software. <a href=\"https://www.cyberm8.org.za\" target=\"_blank\" rel=\"noopener\">www.cyberm8.org.za</a>"
     }
   ]
 };

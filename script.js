@@ -40,7 +40,12 @@ function render() {
 
   /* ---- About ---- */
   document.getElementById('about-content').innerHTML = 
-    d.about.map(p => `<p>${p}</p>`).join('');
+    d.about.map(p => `<p>${p}</p>`).join('') +
+    (d.currentFocus ? `
+      <h3 style="margin-top:20px;margin-bottom:10px;font-size:1rem;font-weight:700;">Current Focus</h3>
+      <ul style="padding-left:20px;">
+        ${d.currentFocus.map(f => `<li style="margin:6px 0;line-height:1.6;">${f}</li>`).join('')}
+      </ul>` : '');
 
   /* ---- Skills ---- */
   document.getElementById('skills-grid').innerHTML =
