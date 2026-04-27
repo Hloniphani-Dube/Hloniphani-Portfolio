@@ -124,6 +124,15 @@ const PORTFOLIO = {
       tech: "HTML, CSS, JavaScript",
       demo: "https://www.ubuhledecorativepainters.co.za",
       github: "https://github.com/Hloniphani-Dube/UBUHLE-Decorative-Projects-Construction-Website"
+    },
+    {
+      title: "Data Visualization Templates & Dashboard / Admin Templates",
+      features: [
+        ""
+      ],
+      tech: "HTML, CSS, JavaScript",
+      demo: "data-visualization-templates-dashbo.vercel.app",
+      github: ""
     }
   ],
 
