@@ -131,7 +131,7 @@ const PORTFOLIO = {
       demo: "https://data-visualization-templates-dashbo.vercel.app"
     },
     {
-      title: "Data Visualization Templates & Dashboard / Admin Templates",
+      title: "Mobile App UI A showcase of an App",
       features: [
         ""
       ],
