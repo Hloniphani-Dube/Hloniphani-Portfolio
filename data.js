@@ -70,13 +70,18 @@ const PORTFOLIO = {
       image:  "assets/img_certgooglecyber.jpeg"
     },
     {
-      title:  "Meta Back-End Developer Professional Certificate",
+      title:  "Java Programming and Software Engineering Fundamentals Specialization · Duke University",
       meta:   "In Progress · Coursera",
       image:  ""
     },
     {
-      title:  "IBM Java Developer Professional Certificate",
+      title:  "Google UX Design Professional Certificate",
       meta:   "In Progress · Coursera",
+      image:  ""
+    },
+    {
+      title:  "Bachelor of Computer and Information Sciences in Application Development",
+      meta:   "In Progress · Emeris Online · First Year",
       image:  ""
     },
   ],
