@@ -73,7 +73,6 @@ function render() {
         <div class="project-tech"><strong>Tech:</strong> ${p.tech}</div>
         <div class="project-links">
           ${p.demo ? `<a href="${p.demo}" target="_blank" rel="noopener" class="btn">Live</a>` : ''}
-          ${p.github ? `<a href="${p.github}" target="_blank" rel="noopener" class="btn">GitHub</a>` : ''}
         </div>
       </div>`).join('');
 

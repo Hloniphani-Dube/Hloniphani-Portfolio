@@ -36,8 +36,8 @@ const PORTFOLIO = {
     "GitHub",
     "Vercel",
     "Firebase",
-    "TypeScript (Learning)",
-    "Java (Learning)"
+    "TypeScript",
+    "Java"
   ],
 
   /* About section — 2-3 sentences max */
@@ -102,8 +102,7 @@ const PORTFOLIO = {
         "Deployed to production with responsive design"
       ],
       tech: "JavaScript, Frontend/Backend, Database Design",
-      demo: "https://quiz-gamification.vercel.app",
-      github: "https://github.com/Hloniphani-Dube/Quiz-Gamification"
+      demo: "https://quiz-gamification.vercel.app"
     },
     {
       title: "Phroneo Threads Website",
@@ -112,8 +111,7 @@ const PORTFOLIO = {
         "Three URLs that automatically change content at midnight."
       ],
       tech: "HTML, CSS, JavaScript",
-      demo: "https://www.phroneothreads.co.za",
-      github: "https://github.com/Hloniphani-Dube/phroneo-threads-website"
+      demo: "https://www.phroneothreads.co.za"
     },
     {
       title: "UBUHLE-Decorative-Projects-Construction-Website",
@@ -122,8 +120,7 @@ const PORTFOLIO = {
         
       ],
       tech: "HTML, CSS, JavaScript",
-      demo: "https://www.ubuhledecorativepainters.co.za",
-      github: "https://github.com/Hloniphani-Dube/UBUHLE-Decorative-Projects-Construction-Website"
+      demo: "https://www.ubuhledecorativepainters.co.za"
     },
     {
       title: "Data Visualization Templates & Dashboard / Admin Templates",
@@ -131,8 +128,15 @@ const PORTFOLIO = {
         ""
       ],
       tech: "HTML, CSS, JavaScript",
-      demo: "data-visualization-templates-dashbo.vercel.app",
-      github: ""
+      demo: "https://data-visualization-templates-dashbo.vercel.app"
+    },
+    {
+      title: "Data Visualization Templates & Dashboard / Admin Templates",
+      features: [
+        ""
+      ],
+      tech: "TypeScript, CSS, JavaScript",
+      demo: "https://mobile-app-ui-a-showcase-of-an-app.vercel.app/"
     }
   ],
 
